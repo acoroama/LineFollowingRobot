@@ -29,7 +29,12 @@ To replicate this project, the following parts are required:
 - Chasis to hold all the parts (Sparkfun RedBot robot chasis used in this case)
 ## Wiring
 Connect the components in the following manner:
+
+![lpc1768_pinout](https://github.com/acoroama/LineFollowingRobot/assets/101741705/1bac0fe0-1f45-47a8-a63c-082263e49bea)
+
 ### Motors
+
+![Motors](https://github.com/acoroama/LineFollowingRobot/assets/101741705/8d7d18a9-5e0e-4e6e-8a2f-4ff8c8701292)
 
 | Dual Motor Driver Breakout  | Left Motor |
 | :---: | :---: |
@@ -42,6 +47,9 @@ Connect the components in the following manner:
 | B02  | Neg  |
 
 ### Motor Driver
+
+![Motor_Driver](https://github.com/acoroama/LineFollowingRobot/assets/101741705/c1584ab2-4235-4bd4-952a-e5450e63cc8c)
+
 | Dual Motor Driver Breakout  | Mbed LPC1768 | 5V |
 | :---: | :---: | :---: |
 | VCC | VOUT | NC |
@@ -57,6 +65,10 @@ Connect the components in the following manner:
 | STBY | VOUT | NC |
 
 ### IR Sensors
+
+![IR_Sensor](https://github.com/acoroama/LineFollowingRobot/assets/101741705/635a1f5f-e565-4a6c-9adb-5eee79bb2827)
+
+
 | Mbed LPC1768  | Left Sensor | Center Sensor | Right Sensor |
 | :---: | :---: | :---: | :---: |
 | p15 | OUT | NC | NC |
