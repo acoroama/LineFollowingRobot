@@ -18,15 +18,15 @@ The following cases are listed:
 With these cases, the robot should be able to follow any relatively simple line tracks.
 ## Coponents
 To replicate this project, the following parts are required:
-- mbed LPC1768
+- Mbed LPC1768
 - SparkFun Motor Driver - Dual TB6612FNG
 - 2 DC Brushless Motors (ROB-13302)
 - 2 Wheels
 - 3 SparkFun RedBot Sensor - Line Follower
 - 5V power supply
-- chasis to hold all the parts (Sparkfun RedBot robot chasis used in this case)
+- Chasis to hold all the parts (Sparkfun RedBot robot chasis used in this case)
 ## Wiring
-Connect the components in the following maner:
+Connect the components in the following manner:
 ### Motors
 
 | Dual Motor Driver Breakout  | Left Motor |
@@ -53,5 +53,18 @@ Connect the components in the following maner:
 | BI1 | p17 | NC |
 | BI2 | p14 | NC |
 | STBY | VOUT | NC |
+
+### IR Sensors
+| Mbed LPC1768  | Left Sensor | Center Sensor | Right Sensor |
+| ------------- | ----------- | ------------- | ------------ |
+| p15 | OUT | NC | NC |
+| p16 | NC | OUT | NC |
+| p20 | NC | NC | OUT |
+| VOUT | VCC | VCC | VCC |
+| GND  | GND | GND | GND |
+
+## Project File
+Here are the files required for the project to run in Mbed Keil Studio:
+
 
  
