@@ -2,6 +2,8 @@
 Built with the mbed LPC1768, this line-following robot uses IR sensors to find and track a line on the floor.
 ## Introduction
 The goal of this project is to have a robot seek a line and follow it. In order to do this, 3 analog IR sensors are used: left, center, and right. The idea behind a line-following robot is when the left sensor is over the line, the robot must turn left. If the right sensor is over the line, it must turn right. If the center sensor is over the line, it goes straight. This project however uses a slightly different approach to account for inconsistencies in the IR reflectivity of the floor's surface.
+![Sensors](https://github.com/acoroama/LineFollowingRobot/assets/101741705/b206ca70-4034-46da-a285-89376289747f)
+
 ### Line-Following Methodology
 Since it is possible to run into the issue of inconsisten IR reflectivity in the surface the robot is on, a different line-following method is proposed.
 After all sensors have been calibrated by resetting robot on a blank white surface, the difference between the left and right sensors compared to the center sensor will be recorded.
@@ -62,6 +64,7 @@ Connect the components in the following manner:
 | p20 | NC | NC | OUT |
 | VOUT | VCC | VCC | VCC |
 | GND  | GND | GND | GND |
+![Wiring](https://github.com/acoroama/LineFollowingRobot/assets/101741705/4a8db695-ecec-4f33-b729-c9ea83d047b9)
 
 ## Project File
 Here are the files required for the project to run in Mbed Keil Studio:
