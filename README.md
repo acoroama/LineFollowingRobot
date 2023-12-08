@@ -68,7 +68,7 @@ Connect the components in the following manner:
 ![Wiring](https://github.com/acoroama/LineFollowingRobot/assets/101741705/4a8db695-ecec-4f33-b729-c9ea83d047b9)
 
 ## Project Demonstration
-Here is a youtube [link](https://youtube.com/shorts/89yhff2wmAQ?feature=share) demonstrating the line-following capabilities of the robot:
+Here is a youtube [link](https://youtube.com/shorts/89yhff2wmAQ?feature=share) demonstrating the line-following capabilities of the robot.
 
 
 
