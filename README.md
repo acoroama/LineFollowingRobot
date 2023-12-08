@@ -69,14 +69,25 @@ Connect the components in the following manner:
 
 ![IR_Sensor](https://github.com/acoroama/LineFollowingRobot/assets/101741705/635a1f5f-e565-4a6c-9adb-5eee79bb2827)
 
+| Mbed LPC1768  | Left Sensor | 
+| :---: | :---: |
+| p15 | OUT |
+| VOUT | VCC |
+| GND  | GND |
 
-| Mbed LPC1768  | Left Sensor | Center Sensor | Right Sensor |
-| :---: | :---: | :---: | :---: |
-| p15 | OUT | NC | NC |
-| p16 | NC | OUT | NC |
-| p20 | NC | NC | OUT |
-| VOUT | VCC | VCC | VCC |
-| GND  | GND | GND | GND |
+| Mbed LPC1768  | Left Sensor | 
+| :---: | :---: |
+| p16 | OUT |
+| VOUT | VCC |
+| GND  | GND |
+
+| Mbed LPC1768  | Left Sensor | 
+| :---: | :---: |
+| p20 | OUT |
+| VOUT | VCC |
+| GND  | GND |
+
+Here is an image of robot completely wired up:
 
 ![Wiring](https://github.com/acoroama/LineFollowingRobot/assets/101741705/4a8db695-ecec-4f33-b729-c9ea83d047b9)
 
