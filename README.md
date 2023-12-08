@@ -13,12 +13,15 @@ The following cases are listed:
    - turnRight
 1. CenterSensor > LineThreshold
    - straight
-1. (leftSensor < LineThreshold) && (centerSensor < LineThreshold) && (rightSensor < LineThreshold)
+1. (abs(LeftDifference) < LineThreshold) && (abs(RightDifference) < LineThreshold)
    - findLine
+With these cases, the robot should be able to follow any relatively simple line tracks.
 ## Coponents
+To replicate this project, the following parts are required:
 - mbed LPC1768
 - SparkFun Motor Driver - Dual TB6612FNG
 - 2 DC Brushless Motors (ROB-13302)
 - 2 Wheels
 - 3 SparkFun RedBot Sensor - Line Follower
 - 5V power supply
+- chasis to hold all the parts (Sparkfun RedBot robot chasis used in this case)
