@@ -32,18 +32,18 @@ Connect the components in the following manner:
 ### Motors
 
 | Dual Motor Driver Breakout  | Left Motor |
-| ------------- | ------------- |
+| :---: | :---: |
 | A01  | Pos  |
 | A02  | Neg  |
 
 | Dual Motor Driver Breakout  | Right Motor |
-| ------------- | ------------- |
+| :---: | :---: |
 | B01  | Pos  |
 | B02  | Neg  |
 
 ### Motor Driver
 | Dual Motor Driver Breakout  | Mbed LPC1768 | 5V |
-| ------------- | ------------- | --- |
+| :---: | :---: | :---: |
 | VCC | VOUT | NC |
 | NC | VIN | Pos |
 | VM | NC | Pos |
@@ -58,7 +58,7 @@ Connect the components in the following manner:
 
 ### IR Sensors
 | Mbed LPC1768  | Left Sensor | Center Sensor | Right Sensor |
-| ------------- | ----------- | ------------- | ------------ |
+| :---: | :---: | :---: | :---: |
 | p15 | OUT | NC | NC |
 | p16 | NC | OUT | NC |
 | p20 | NC | NC | OUT |
