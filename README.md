@@ -6,7 +6,7 @@ The goal of this project is to have a robot seek a line and follow it. In order 
 ![Sensors](https://github.com/acoroama/LineFollowingRobot/assets/101741705/b206ca70-4034-46da-a285-89376289747f)
 
 ### Line-Following Methodology
-Since it is possible to run into the issue of inconsisten IR reflectivity in the surface the robot is on, a different line-following method is proposed.
+Since it is possible to run into the issue of inconsistent IR reflectivity in the surface the robot is on, a different line-following method is proposed.
 After all sensors have been calibrated by resetting robot on a blank white surface, the difference between the left and right sensors compared to the center sensor will be recorded.
 ##### note that there must be a set lineThreshold (for what the IR sensors read when over the line) and DifThreshold (for when \n      either the center or (left or right) sensors is over the line)
 The following cases are listed:
