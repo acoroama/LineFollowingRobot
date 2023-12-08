@@ -75,13 +75,13 @@ Connect the components in the following manner:
 | VOUT | VCC |
 | GND  | GND |
 
-| Mbed LPC1768  | Left Sensor | 
+| Mbed LPC1768  | Center Sensor | 
 | :---: | :---: |
 | p16 | OUT |
 | VOUT | VCC |
 | GND  | GND |
 
-| Mbed LPC1768  | Left Sensor | 
+| Mbed LPC1768  | Right Sensor | 
 | :---: | :---: |
 | p20 | OUT |
 | VOUT | VCC |
