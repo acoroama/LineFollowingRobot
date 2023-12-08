@@ -16,9 +16,9 @@ The following cases are listed:
    - turnRight
 1. CenterSensor > LineThreshold
    - straight
-1. (abs(LeftDifference) < LineThreshold) && (abs(RightDifference) < LineThreshold)
+1. (abs(LeftDifference) < DifThreshold) && (abs(RightDifference) < DifThreshold)
    - findLine
-With these cases, the robot should be able to follow any relatively simple line tracks.
+#### With these cases, the robot should be able to follow any relatively simple line track.
 ## Coponents
 To replicate this project, the following parts are required:
 - Mbed LPC1768
