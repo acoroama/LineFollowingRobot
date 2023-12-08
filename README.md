@@ -64,6 +64,7 @@ Connect the components in the following manner:
 | p20 | NC | NC | OUT |
 | VOUT | VCC | VCC | VCC |
 | GND  | GND | GND | GND |
+
 ![Wiring](https://github.com/acoroama/LineFollowingRobot/assets/101741705/4a8db695-ecec-4f33-b729-c9ea83d047b9)
 
 ## Project File
